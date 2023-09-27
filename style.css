@@ -1,28 +1,17 @@
-.main {
-    margin: 0 auto;
-    display: flex;
-    flex-flow: column;
-    min-height: 100vh;
-    background-color: rgb(187, 187, 187);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10pt;
-  }
-  
-  .blog1 {
+.mainheader {
     display: flex;
     height: 10vh;
     padding-top: 0.3em;
     align-items: center;
     justify-content: center;
-  }
-  
-  .main-container {
+    background-color: grey;
+}
+.main-container {
     display: flex;
     box-sizing: border-box;
     height: 76vh;
-  }
-  
-  .blog1 {
+}
+.blog1 {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -32,19 +21,16 @@
     padding-left: 5px;
     padding-right: 5px;
     background-color: rgb(240, 236, 157);
-  }
-  
-  .mainpart {
+}
+.mainpart {
     text-align: center;
-  }
-  
-  .s-half {
+}
+.s-half {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-  }
-  
-  .s-half .yellow {
+}
+.s-half .yellow {
     box-sizing: border-box;
     margin: 5px;
     padding-top: 12px;
@@ -62,26 +48,29 @@
     text-align: center;
     background-color: rgb(241, 217, 137);
 }
-.green {
+.aside {
+    display: flex;
+    justify-content: flex-end;
     padding-top: 1em;
     padding-left: 10px;
     padding-right: 10px;
     width: 20%;
-    background-color: rgb(165, 235, 144);
+    background-color: rgb(195, 239, 182);
     text-align: center;
 }
 .footer {
     display: flex;
     padding-left: 5px;
     padding-right: 5px;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: grey;
 }
-.f-section {
+.footerpart1 {
     box-sizing: border-box;
     margin: 10px 5px;
     padding: 12px 3px;
     height: 85%;
     flex-basis: 25%;
     text-align: center;
-    background-color: rgb(234, 234, 234);
+    background-color: white;
 }
